@@ -3,4 +3,4 @@ project(matrix_mul C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(matrix_mul main.c)
+add_executable(matrix_mul main.c multiplication.c multiplication.h )

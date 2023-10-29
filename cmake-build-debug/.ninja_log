@@ -1,0 +1,10 @@
+# ninja log v5
+4	97	7203222926344636	CMakeFiles/matrix_mul.dir/multiplication.c.obj	39b12d28d334a564
+11	95	7203222585603447	CMakeFiles/matrix_mul.dir/main.c.obj	52526a7415f8322a
+98	207	7203222927399967	matrix_mul.exe	57868bc238da610d
+8	87	7203224567917690	CMakeFiles/matrix_mul.dir/main.c.obj	52526a7415f8322a
+2	89	7203224567937504	CMakeFiles/matrix_mul.dir/multiplication.c.obj	39b12d28d334a564
+89	197	7203224568937500	matrix_mul.exe	57868bc238da610d
+11	116	7203228167443821	CMakeFiles/matrix_mul.dir/main.c.obj	52526a7415f8322a
+4	121	7203228167479132	CMakeFiles/matrix_mul.dir/multiplication.c.obj	39b12d28d334a564
+121	220	7203228168428803	matrix_mul.exe	57868bc238da610d
