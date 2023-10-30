@@ -8,3 +8,12 @@
 11	116	7203228167443821	CMakeFiles/matrix_mul.dir/main.c.obj	52526a7415f8322a
 4	121	7203228167479132	CMakeFiles/matrix_mul.dir/multiplication.c.obj	39b12d28d334a564
 121	220	7203228168428803	matrix_mul.exe	57868bc238da610d
+10	91	7203289098777933	CMakeFiles/matrix_mul.dir/main.c.obj	52526a7415f8322a
+4	92	7203289098777933	CMakeFiles/matrix_mul.dir/multiplication.c.obj	39b12d28d334a564
+92	211	7203289099930592	matrix_mul.exe	57868bc238da610d
+9	92	7203289248715593	CMakeFiles/matrix_mul.dir/main.c.obj	52526a7415f8322a
+4	95	7203289248746665	CMakeFiles/matrix_mul.dir/multiplication.c.obj	39b12d28d334a564
+95	195	7203289249697123	matrix_mul.exe	57868bc238da610d
+8	93	7203289719113045	CMakeFiles/matrix_mul.dir/main.c.obj	52526a7415f8322a
+3	106	7203289719241525	CMakeFiles/matrix_mul.dir/multiplication.c.obj	39b12d28d334a564
+106	222	7203289720339690	matrix_mul.exe	57868bc238da610d
