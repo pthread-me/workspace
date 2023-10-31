@@ -8,8 +8,15 @@
 #ifndef MATRIX_MUL_MULTIPLICATION_H
 #define MATRIX_MUL_MULTIPLICATION_H
 
-void print_matrix(int x, int y, int [x][y]);
-void* unoptimized(int x_row, int x_col, int y_row, int y_col, int** , int** , int**);
-void* Iterative_cache_optimized(int x_row, int x_col, int y_row, int y_col, int** , int** , int**);
+typedef struct My_Matrix{
+    int** pointer;
+    int rows;
+    int columns;
+}Matrix;
+
+Matrix* create_matrix(int, int, int**);
+void print_matrix(Matrix* matrix);
+Matrix* unoptimized(Matrix* A, Matrix* B);
+Matrix* Iterative_cache_optimized(Matrix* A, Matrix* B);
 
 #endif //MATRIX_MUL_MULTIPLICATION_H

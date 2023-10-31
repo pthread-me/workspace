@@ -15,6 +15,12 @@ exploring different avenues in optimizing matrix multiplications, all recordings
 
 ### Iterative with Cache size Optimization
 - used the algorithm here: https://en.wikipedia.org/wiki/Matrix_multiplication_algorithm
-- my laptop seems to have 5 processors each with a 64 byte cache, so M=320, b=64. and our optimal step size T=8
+- my laptop seems to have 5 processors each with a 64kb cache, so M=320, b=64. and our optimal step size T=565
 - time complexity Theta (nmp)
-- times: 94s, 85s, 92s
+- times when T=8: 94s, 85s, 92s
+- times when T=565: 92s, 86s, 81s
+
+### Error checking (to be implemented)
+- we will be using this algorithm to check if the multiplications are correct :
+https://en.wikipedia.org/wiki/Freivalds%27_algorithm
+- 

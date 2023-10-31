@@ -5,25 +5,23 @@
 int main() {
 
 
-    int x_row = 3000;
-    int x_col = 3000;
-    int y_row = 3000;
-    int y_col = 3000;
+    int n = 3;
+    int m = 3;
+    int p = 3;
 
-    int** x = calloc(x_row, sizeof (int *));
-    int** y = calloc(y_row,  sizeof (int* ));
-    int** result = calloc(x_row, sizeof (int *));
 
-    //initializing the arrays
-    for(int i=0; i<x_row; i++){
-        x[i] = calloc(x_col, sizeof (int ));
-        result[i] = calloc(y_col, sizeof (int ));
-    }
-    for(int i=0; i<y_row; i++){
-        y[i] = calloc(y_col, sizeof (int ));
+
+    Matrix* A = create_matrix(n, m, NULL);
+    Matrix* B = create_matrix(m, p, NULL);
+
+    for(int i=0; i<3; i++){
+        for(int j=0; j<3; j++){
+            A->pointer[i][j] = 1;
+            B->pointer[i][j] = 3;
+        }
     }
 
-    //unoptimized(x_row,x_col, y_row,y_col, x,y, result);
-
-    Iterative_cache_optimized(x_row,x_col, y_row,y_col, x,y, result);
+    //Matrix* C = unoptimized(A, B);
+    Matrix* C = Iterative_cache_optimized(A, B);
+    print_matrix(C);
 }
