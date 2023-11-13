@@ -1,4 +1,4 @@
-# Install script for directory: /home/anas/hub/matrix_mul
+# Install script for directory: /home/anas/hub/workspace
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/anas/hub/matrix_mul/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/anas/hub/workspace/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

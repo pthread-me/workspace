@@ -53,10 +53,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/anas/hub/matrix_mul
+CMAKE_SOURCE_DIR = /home/anas/hub/workspace
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/anas/hub/matrix_mul/cmake-build-debug
+CMAKE_BINARY_DIR = /home/anas/hub/workspace/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/matrix_mul.dir/depend.make
@@ -70,46 +70,46 @@ include CMakeFiles/matrix_mul.dir/progress.make
 include CMakeFiles/matrix_mul.dir/flags.make
 
 CMakeFiles/matrix_mul.dir/src/main.c.o: CMakeFiles/matrix_mul.dir/flags.make
-CMakeFiles/matrix_mul.dir/src/main.c.o: /home/anas/hub/matrix_mul/src/main.c
+CMakeFiles/matrix_mul.dir/src/main.c.o: /home/anas/hub/workspace/src/main.c
 CMakeFiles/matrix_mul.dir/src/main.c.o: CMakeFiles/matrix_mul.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/anas/hub/matrix_mul/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/matrix_mul.dir/src/main.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/matrix_mul.dir/src/main.c.o -MF CMakeFiles/matrix_mul.dir/src/main.c.o.d -o CMakeFiles/matrix_mul.dir/src/main.c.o -c /home/anas/hub/matrix_mul/src/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/anas/hub/workspace/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/matrix_mul.dir/src/main.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/matrix_mul.dir/src/main.c.o -MF CMakeFiles/matrix_mul.dir/src/main.c.o.d -o CMakeFiles/matrix_mul.dir/src/main.c.o -c /home/anas/hub/workspace/src/main.c
 
 CMakeFiles/matrix_mul.dir/src/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/matrix_mul.dir/src/main.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/anas/hub/matrix_mul/src/main.c > CMakeFiles/matrix_mul.dir/src/main.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/anas/hub/workspace/src/main.c > CMakeFiles/matrix_mul.dir/src/main.c.i
 
 CMakeFiles/matrix_mul.dir/src/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/matrix_mul.dir/src/main.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/anas/hub/matrix_mul/src/main.c -o CMakeFiles/matrix_mul.dir/src/main.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/anas/hub/workspace/src/main.c -o CMakeFiles/matrix_mul.dir/src/main.c.s
 
-CMakeFiles/matrix_mul.dir/src/Matrix.c.o: CMakeFiles/matrix_mul.dir/flags.make
-CMakeFiles/matrix_mul.dir/src/Matrix.c.o: /home/anas/hub/matrix_mul/src/Matrix.c
-CMakeFiles/matrix_mul.dir/src/Matrix.c.o: CMakeFiles/matrix_mul.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/anas/hub/matrix_mul/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/matrix_mul.dir/src/Matrix.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/matrix_mul.dir/src/Matrix.c.o -MF CMakeFiles/matrix_mul.dir/src/Matrix.c.o.d -o CMakeFiles/matrix_mul.dir/src/Matrix.c.o -c /home/anas/hub/matrix_mul/src/Matrix.c
+CMakeFiles/matrix_mul.dir/lib/Matrix.c.o: CMakeFiles/matrix_mul.dir/flags.make
+CMakeFiles/matrix_mul.dir/lib/Matrix.c.o: /home/anas/hub/workspace/lib/Matrix.c
+CMakeFiles/matrix_mul.dir/lib/Matrix.c.o: CMakeFiles/matrix_mul.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/anas/hub/workspace/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/matrix_mul.dir/lib/Matrix.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/matrix_mul.dir/lib/Matrix.c.o -MF CMakeFiles/matrix_mul.dir/lib/Matrix.c.o.d -o CMakeFiles/matrix_mul.dir/lib/Matrix.c.o -c /home/anas/hub/workspace/lib/Matrix.c
 
-CMakeFiles/matrix_mul.dir/src/Matrix.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/matrix_mul.dir/src/Matrix.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/anas/hub/matrix_mul/src/Matrix.c > CMakeFiles/matrix_mul.dir/src/Matrix.c.i
+CMakeFiles/matrix_mul.dir/lib/Matrix.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/matrix_mul.dir/lib/Matrix.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/anas/hub/workspace/lib/Matrix.c > CMakeFiles/matrix_mul.dir/lib/Matrix.c.i
 
-CMakeFiles/matrix_mul.dir/src/Matrix.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/matrix_mul.dir/src/Matrix.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/anas/hub/matrix_mul/src/Matrix.c -o CMakeFiles/matrix_mul.dir/src/Matrix.c.s
+CMakeFiles/matrix_mul.dir/lib/Matrix.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/matrix_mul.dir/lib/Matrix.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/anas/hub/workspace/lib/Matrix.c -o CMakeFiles/matrix_mul.dir/lib/Matrix.c.s
 
 # Object files for target matrix_mul
 matrix_mul_OBJECTS = \
 "CMakeFiles/matrix_mul.dir/src/main.c.o" \
-"CMakeFiles/matrix_mul.dir/src/Matrix.c.o"
+"CMakeFiles/matrix_mul.dir/lib/Matrix.c.o"
 
 # External object files for target matrix_mul
 matrix_mul_EXTERNAL_OBJECTS =
 
 matrix_mul: CMakeFiles/matrix_mul.dir/src/main.c.o
-matrix_mul: CMakeFiles/matrix_mul.dir/src/Matrix.c.o
+matrix_mul: CMakeFiles/matrix_mul.dir/lib/Matrix.c.o
 matrix_mul: CMakeFiles/matrix_mul.dir/build.make
 matrix_mul: CMakeFiles/matrix_mul.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/anas/hub/matrix_mul/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable matrix_mul"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/anas/hub/workspace/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable matrix_mul"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/matrix_mul.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -121,6 +121,6 @@ CMakeFiles/matrix_mul.dir/clean:
 .PHONY : CMakeFiles/matrix_mul.dir/clean
 
 CMakeFiles/matrix_mul.dir/depend:
-	cd /home/anas/hub/matrix_mul/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/anas/hub/matrix_mul /home/anas/hub/matrix_mul /home/anas/hub/matrix_mul/cmake-build-debug /home/anas/hub/matrix_mul/cmake-build-debug /home/anas/hub/matrix_mul/cmake-build-debug/CMakeFiles/matrix_mul.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/anas/hub/workspace/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/anas/hub/workspace /home/anas/hub/workspace /home/anas/hub/workspace/cmake-build-debug /home/anas/hub/workspace/cmake-build-debug /home/anas/hub/workspace/cmake-build-debug/CMakeFiles/matrix_mul.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/matrix_mul.dir/depend
 

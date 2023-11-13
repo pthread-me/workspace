@@ -1,1 +1,1 @@
-/usr/bin/cc -g CMakeFiles/matrix_mul.dir/src/main.c.o CMakeFiles/matrix_mul.dir/src/Matrix.c.o -o matrix_mul 
+/usr/bin/cc -g CMakeFiles/matrix_mul.dir/src/main.c.o CMakeFiles/matrix_mul.dir/lib/Matrix.c.o -o matrix_mul 

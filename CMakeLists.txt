@@ -3,4 +3,4 @@ project(matrix_mul C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(matrix_mul src/main.c src/Matrix.c src/Matrix.h)
+add_executable(matrix_mul src/main.c lib/Matrix.c lib/Matrix.h)

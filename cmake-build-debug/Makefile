@@ -57,10 +57,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/anas/hub/matrix_mul
+CMAKE_SOURCE_DIR = /home/anas/hub/workspace
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/anas/hub/matrix_mul/cmake-build-debug
+CMAKE_BINARY_DIR = /home/anas/hub/workspace/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/anas/hub/matrix_mul/cmake-build-debug/CMakeFiles /home/anas/hub/matrix_mul/cmake-build-debug//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/anas/hub/workspace/cmake-build-debug/CMakeFiles /home/anas/hub/workspace/cmake-build-debug//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/anas/hub/matrix_mul/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/anas/hub/workspace/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -129,29 +129,29 @@ matrix_mul/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/matrix_mul.dir/build.make CMakeFiles/matrix_mul.dir/build
 .PHONY : matrix_mul/fast
 
-src/Matrix.o: src/Matrix.c.o
-.PHONY : src/Matrix.o
+lib/Matrix.o: lib/Matrix.c.o
+.PHONY : lib/Matrix.o
 
 # target to build an object file
-src/Matrix.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/matrix_mul.dir/build.make CMakeFiles/matrix_mul.dir/src/Matrix.c.o
-.PHONY : src/Matrix.c.o
+lib/Matrix.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matrix_mul.dir/build.make CMakeFiles/matrix_mul.dir/lib/Matrix.c.o
+.PHONY : lib/Matrix.c.o
 
-src/Matrix.i: src/Matrix.c.i
-.PHONY : src/Matrix.i
+lib/Matrix.i: lib/Matrix.c.i
+.PHONY : lib/Matrix.i
 
 # target to preprocess a source file
-src/Matrix.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/matrix_mul.dir/build.make CMakeFiles/matrix_mul.dir/src/Matrix.c.i
-.PHONY : src/Matrix.c.i
+lib/Matrix.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matrix_mul.dir/build.make CMakeFiles/matrix_mul.dir/lib/Matrix.c.i
+.PHONY : lib/Matrix.c.i
 
-src/Matrix.s: src/Matrix.c.s
-.PHONY : src/Matrix.s
+lib/Matrix.s: lib/Matrix.c.s
+.PHONY : lib/Matrix.s
 
 # target to generate assembly for a file
-src/Matrix.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/matrix_mul.dir/build.make CMakeFiles/matrix_mul.dir/src/Matrix.c.s
-.PHONY : src/Matrix.c.s
+lib/Matrix.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matrix_mul.dir/build.make CMakeFiles/matrix_mul.dir/lib/Matrix.c.s
+.PHONY : lib/Matrix.c.s
 
 src/main.o: src/main.c.o
 .PHONY : src/main.o
@@ -186,9 +186,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... matrix_mul"
-	@echo "... src/Matrix.o"
-	@echo "... src/Matrix.i"
-	@echo "... src/Matrix.s"
+	@echo "... lib/Matrix.o"
+	@echo "... lib/Matrix.i"
+	@echo "... lib/Matrix.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
