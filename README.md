@@ -20,7 +20,7 @@ exploring different avenues in optimizing matrix multiplications, all recordings
 - times when T=8: 94s, 85s, 92s
 - times when T=565: 92s, 86s, 81s
 
-### Error checking (to be implemented)
+### Error checking
 - we will be using this algorithm to check if the multiplications are correct :
 https://en.wikipedia.org/wiki/Freivalds%27_algorithm
 - 

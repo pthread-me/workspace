@@ -1,11 +1,9 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/matrix_mul.dir/main.c.obj"
-  "CMakeFiles/matrix_mul.dir/main.c.obj.d"
-  "CMakeFiles/matrix_mul.dir/multiplication.c.obj"
-  "CMakeFiles/matrix_mul.dir/multiplication.c.obj.d"
-  "libmatrix_mul.dll.a"
-  "matrix_mul.exe"
-  "matrix_mul.exe.manifest"
+  "CMakeFiles/matrix_mul.dir/src/Matrix.c.o"
+  "CMakeFiles/matrix_mul.dir/src/Matrix.c.o.d"
+  "CMakeFiles/matrix_mul.dir/src/main.c.o"
+  "CMakeFiles/matrix_mul.dir/src/main.c.o.d"
+  "matrix_mul"
   "matrix_mul.pdb"
 )
 

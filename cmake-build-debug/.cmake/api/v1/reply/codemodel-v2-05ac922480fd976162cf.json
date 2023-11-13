@@ -6,7 +6,7 @@
 			[
 				{
 					"build" : ".",
-					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.25"
@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "matrix_mul::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-matrix_mul-Debug-bb7c444916b9a5304ab8.json",
+					"jsonFile" : "target-matrix_mul-Debug-69e4cc3dda3503624fca.json",
 					"name" : "matrix_mul",
 					"projectIndex" : 0
 				}
@@ -49,12 +49,12 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/anasn/CLionProjects/matrix_mul/cmake-build-debug",
-		"source" : "C:/Users/anasn/CLionProjects/matrix_mul"
+		"build" : "/home/anas/hub/matrix_mul/cmake-build-debug",
+		"source" : "/home/anas/hub/matrix_mul"
 	},
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 4
+		"minor" : 6
 	}
 }
