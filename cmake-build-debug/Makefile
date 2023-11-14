@@ -117,24 +117,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named matrix_mul
+# Target rules for targets named workspace
 
 # Build rule for target.
-matrix_mul: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 matrix_mul
-.PHONY : matrix_mul
+workspace: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 workspace
+.PHONY : workspace
 
 # fast build rule for target.
-matrix_mul/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/matrix_mul.dir/build.make CMakeFiles/matrix_mul.dir/build
-.PHONY : matrix_mul/fast
+workspace/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/workspace.dir/build.make CMakeFiles/workspace.dir/build
+.PHONY : workspace/fast
 
 lib/Matrix.o: lib/Matrix.c.o
 .PHONY : lib/Matrix.o
 
 # target to build an object file
 lib/Matrix.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/matrix_mul.dir/build.make CMakeFiles/matrix_mul.dir/lib/Matrix.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/workspace.dir/build.make CMakeFiles/workspace.dir/lib/Matrix.c.o
 .PHONY : lib/Matrix.c.o
 
 lib/Matrix.i: lib/Matrix.c.i
@@ -142,7 +142,7 @@ lib/Matrix.i: lib/Matrix.c.i
 
 # target to preprocess a source file
 lib/Matrix.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/matrix_mul.dir/build.make CMakeFiles/matrix_mul.dir/lib/Matrix.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/workspace.dir/build.make CMakeFiles/workspace.dir/lib/Matrix.c.i
 .PHONY : lib/Matrix.c.i
 
 lib/Matrix.s: lib/Matrix.c.s
@@ -150,15 +150,39 @@ lib/Matrix.s: lib/Matrix.c.s
 
 # target to generate assembly for a file
 lib/Matrix.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/matrix_mul.dir/build.make CMakeFiles/matrix_mul.dir/lib/Matrix.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/workspace.dir/build.make CMakeFiles/workspace.dir/lib/Matrix.c.s
 .PHONY : lib/Matrix.c.s
+
+lib/NeuralNetwork.o: lib/NeuralNetwork.c.o
+.PHONY : lib/NeuralNetwork.o
+
+# target to build an object file
+lib/NeuralNetwork.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/workspace.dir/build.make CMakeFiles/workspace.dir/lib/NeuralNetwork.c.o
+.PHONY : lib/NeuralNetwork.c.o
+
+lib/NeuralNetwork.i: lib/NeuralNetwork.c.i
+.PHONY : lib/NeuralNetwork.i
+
+# target to preprocess a source file
+lib/NeuralNetwork.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/workspace.dir/build.make CMakeFiles/workspace.dir/lib/NeuralNetwork.c.i
+.PHONY : lib/NeuralNetwork.c.i
+
+lib/NeuralNetwork.s: lib/NeuralNetwork.c.s
+.PHONY : lib/NeuralNetwork.s
+
+# target to generate assembly for a file
+lib/NeuralNetwork.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/workspace.dir/build.make CMakeFiles/workspace.dir/lib/NeuralNetwork.c.s
+.PHONY : lib/NeuralNetwork.c.s
 
 src/main.o: src/main.c.o
 .PHONY : src/main.o
 
 # target to build an object file
 src/main.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/matrix_mul.dir/build.make CMakeFiles/matrix_mul.dir/src/main.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/workspace.dir/build.make CMakeFiles/workspace.dir/src/main.c.o
 .PHONY : src/main.c.o
 
 src/main.i: src/main.c.i
@@ -166,7 +190,7 @@ src/main.i: src/main.c.i
 
 # target to preprocess a source file
 src/main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/matrix_mul.dir/build.make CMakeFiles/matrix_mul.dir/src/main.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/workspace.dir/build.make CMakeFiles/workspace.dir/src/main.c.i
 .PHONY : src/main.c.i
 
 src/main.s: src/main.c.s
@@ -174,7 +198,7 @@ src/main.s: src/main.c.s
 
 # target to generate assembly for a file
 src/main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/matrix_mul.dir/build.make CMakeFiles/matrix_mul.dir/src/main.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/workspace.dir/build.make CMakeFiles/workspace.dir/src/main.c.s
 .PHONY : src/main.c.s
 
 # Help Target
@@ -185,10 +209,13 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... matrix_mul"
+	@echo "... workspace"
 	@echo "... lib/Matrix.o"
 	@echo "... lib/Matrix.i"
 	@echo "... lib/Matrix.s"
+	@echo "... lib/NeuralNetwork.o"
+	@echo "... lib/NeuralNetwork.i"
+	@echo "... lib/NeuralNetwork.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

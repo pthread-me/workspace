@@ -89,7 +89,7 @@ Matrix* transpose_matrix(Matrix* matrix){
         exit(-1);
     }
 
-    Matrix* t_matrix = create_matrix(matrix->rows, matrix->columns);
+    Matrix* t_matrix = create_matrix(matrix->columns, matrix->rows);
 
     for(int i=0; i<matrix->rows; i++){
         for(int j=0; j<matrix->columns; j++){
@@ -132,7 +132,7 @@ Matrix* unoptimized(Matrix* A, Matrix* B){
     }
     time(&end);
 
-    printf("%f\n", difftime(end, start));
+    //printf("%f\n", difftime(end, start));
     return C;
 }
 
@@ -176,7 +176,7 @@ Matrix* Iterative_cache_optimized( Matrix* A, Matrix* B){
         }
     }
     time(&end);
-    printf("%f\n", difftime(end, start));
+    //printf("%f\n", difftime(end, start));
     return C;
 }
 

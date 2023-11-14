@@ -133,7 +133,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=matrix_mul
+CMAKE_PROJECT_NAME:STATIC=workspace
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
@@ -214,6 +214,15 @@ matrix_mul_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
 matrix_mul_SOURCE_DIR:STATIC=/home/anas/hub/workspace
+
+//Value Computed by CMake
+workspace_BINARY_DIR:STATIC=/home/anas/hub/workspace/cmake-build-debug
+
+//Value Computed by CMake
+workspace_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+workspace_SOURCE_DIR:STATIC=/home/anas/hub/workspace
 
 
 ########################

@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/matrix_mul.dir/lib/Matrix.c.o"
   "CMakeFiles/matrix_mul.dir/lib/Matrix.c.o.d"
+  "CMakeFiles/matrix_mul.dir/lib/NeuralNetwork.c.o"
+  "CMakeFiles/matrix_mul.dir/lib/NeuralNetwork.c.o.d"
   "CMakeFiles/matrix_mul.dir/src/main.c.o"
   "CMakeFiles/matrix_mul.dir/src/main.c.o.d"
   "matrix_mul"
